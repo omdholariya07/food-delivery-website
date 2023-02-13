@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 /* CSS Variables */
 :root{
@@ -134,12 +136,12 @@
 
 
 /* Client Section */
-#client-section{
+.client-section{
     position: relative;
     top: 50px;
     /* height: 344px; */
 }
-#client-section::before{
+.client-section::before{
     content: "";
     position: absolute;
     background: url(../bg2.jpg);
@@ -168,10 +170,10 @@ height: 110px;
     top: 16px;
 }
 
-#contact{
+.contact{
     position: relative;
     /* top: 50px; */
-    margin: 23px 0px;
+    margin: 30px 0px;
 }
 #contact::before{
     content: "";
